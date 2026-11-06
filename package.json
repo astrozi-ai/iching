@@ -2,9 +2,11 @@
   "name": "iching-monorepo",
   "private": true,
   "type": "module",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "typecheck": "tsc -b packages/core packages/bazi packages/mcp",
+    "typecheck": "tsc -b packages/core",
     "test": "bun test",
     "check": "bun run typecheck && bun run test",
     "changeset": "changeset"
