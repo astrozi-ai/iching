@@ -1,0 +1,15 @@
+{
+  "name": "@iching/core",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Shared primitives for Chinese metaphysics: stems and branches (干支), five phases (五行), solar terms (节气) and explicit time conventions.",
+  "license": "MIT",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "files": ["src", "README.md", "LICENSE"],
+  "repository": { "type": "git", "url": "git+https://github.com/astrozi-ai/iching.git", "directory": "packages/core" },
+  "homepage": "https://github.com/astrozi-ai/iching#readme",
+  "bugs": "https://github.com/astrozi-ai/iching/issues",
+  "keywords": ["chinese-calendar","sexagenary","ganzhi","wuxing","solar-terms","干支","五行","节气"],
+  "publishConfig": { "access": "public", "provenance": true }
+}
